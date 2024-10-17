@@ -101,35 +101,35 @@
 
 ### 3) 모델 📌
 
-# AutoML 분석 및 모델 평가
+#### AutoML 분석 및 모델 평가
 
 본 프로젝트에서는 5가지 머신러닝 모델을 사용하여 전처리된 데이터셋, SMOTE를 적용한 데이터셋, Random Over Sampling(ROS)을 적용한 데이터셋을 바탕으로 최적의 모델을 선정했음.
 
-## 적용된 모델:
+#### 적용된 모델:
 - RandomForest
 - AdaBoost
 - LightGBM
 - Linear Regression
 - MLP (Multi-Layer Perceptron)
 
-## 데이터셋:
+#### 데이터셋:
 1. 전처리된 데이터셋
 2. SMOTE 적용 데이터셋
 3. ROS (Random Over Sampling) 적용 데이터셋
 
-## 분석 지표:
+#### 분석 지표:
 - Precision
 - Recall
 - F1 Score
 - Kappa
 
-## 결과 요약:
+#### 결과 요약:
 - **오버샘플링(SMOTE, ROS) 적용 후**: 
   - **Accuracy**는 다소 떨어졌으나, **Recall**, **F1 Score**, **Kappa** 지표는 전반적으로 증가하는 경향을 보임.
   
 - **3가지 데이터셋** (전처리 후, SMOTE 적용 후, ROS 적용 후)는 전반적으로 **유의미한 차이**를 보이지 않음.
 
-## 결론:
+#### 결론:
 오버샘플링 기법을 적용한 데이터셋은 Accuracy를 약간 떨어뜨리지만, 불균형 데이터를 처리함으로써 Recall, F1 Score, Kappa와 같은 중요한 지표들을 향상시킴. 
 세 가지 데이터셋 간에는 성능에 큰 차이가 없었으나, 모델의 최적화 및 평가 지표 선택에 따라 결과가 달라질 수 있음.
 
