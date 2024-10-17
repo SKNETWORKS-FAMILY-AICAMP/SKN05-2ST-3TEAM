@@ -22,7 +22,7 @@
 ### 소개
 본 프로젝트는 통신사 고객의 이탈을 분석하고 예측하기 위해 진행되었습니다. Kaggle의 cell2cell 데이터셋을 활용하여 고객의 행동 패턴과 이탈 요인을 분석하고, 머신러닝과 딥러닝 기법을 통해 예측 모델을 개발했습니다. 
 
-또한, Customer Churn Prediction in Telecommunication Industry Using Deep Learning 논문을 참고하여 전처리 작업과 모델 성능을 개선하는 데 중점을 두었습니다.
+또한, 'Customer Churn Prediction in Telecommunication Industry Using Deep Learning' 논문을 참고하여 전처리 작업과 모델 성능을 개선하는 데 중점을 두었습니다.
 
 
 ### 필요성
@@ -99,11 +99,11 @@
 
 
 
-### 3) 모델
+### 3) 모델 📌
 
 
 
-##  4. 한 줄 회고 
+##  4. 한 줄 회고 📝
 - 남석준 👨‍💻
 
   최고의 팀 '나혼자 산다' 여러분 모두 고생하셨습니다. 또 만납시다~😁
